@@ -1,0 +1,59 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-container {
+  margin-top: 100px;
+  background-color: rgb(228, 228, 228);
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.form-label {
+  text-align: left;
+
+  width: 100%;
+}
+.button-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  margin-top: 100px;
+  background-color: rgb(228, 228, 228);
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.login-header {
+  margin-bottom: 40px;
+}
+
+.login-input {
+  margin-bottom: 40px;
+}
+
+.btn-secondary {
+  width: 100%;
+  margin-top: 10px;
+}

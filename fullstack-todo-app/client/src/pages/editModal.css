@@ -1,0 +1,49 @@
+.edit-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px black;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+
+.edit-header {
+  font-size: 40px;
+  letter-spacing: 0.5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 30px;
+}
+
+.edit-body {
+  padding: 30px;
+}
+
+.edit-input {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.edit-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.edit-btn {
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.edit-btn:hover {
+  cursor: pointer;
+  background-color: rgb(192, 192, 192);
+}
